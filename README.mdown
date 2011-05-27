@@ -4,6 +4,10 @@ This repository provides examples based on two of Sandvox’s built-in plug-ins.
 
 One thing to note is that the Developer’s Guide illustrates how to set up a new plug-in project using Xcode 3. An [Xcode 4 template](https://github.com/Abizern/Sandvox-2-PlugIn) is available from Abizern. If you use the template, we still recommend reading though the Guide so that you understand how the project is able to #import headers and link directly against the Sandvox application.
 
+Also included is a multi-resolution (32px, 64px) image template that should be used as the base of any icon developed for your plug-in.
+
+Between the documentation/reference and these examples, you should be able to see how to build a plug-in of your own. Let Karelia know if you have created a new plug-in so that we can help tell the world about it!
+
 ## Flickr
 
 ## IFrame
