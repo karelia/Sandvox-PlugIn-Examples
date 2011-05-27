@@ -1,0 +1,28 @@
+<div class="flickr">
+<a href="http://www.flickr.com" class="flickr_www">www.<strong style="color:#3993ff">flick<span style="color:#ff1c92">r</span></strong>.com</a>
+
+[[if currentContext.liveDataFeeds]]
+[[if flashStyle]]
+<script type="text/javascript">
+zg_insert_badge = function() {
+
+var zgi_url = 'http://www.flickr.com/apps/badge/badge_iframe.gne?zg_bg_color=ffffff[[if flickrID]]&amp;zg_person_id=[[=&%flickrID]][[endif3]][[if tag]]&amp;zg_tags=[[=&tag]]&amp;zg_tag_mode=any[[endif3]]';
+document.write('<iframe style="background-color:#ffffff; border-color:#ffffff; border:none;" width="113" height="151" frameborder="0" scrolling="no" src="'+zgi_url+'" title="Flickr Photos"></iframe>');
+}
+zg_insert_badge();
+</script>
+[[else2]]
+<div class="flickr_badge_wrapper">
+<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?[[if showInfo]]show_name=1&amp;[[endif3]]count=[[=number]]&amp;display=[[if random]]random[[else3]]latest[[endif3]]&amp;size=[[if number == 1]]m[[else3]]s[[endif3]]&amp;layout=x[[if tag]]&amp;tag=[[=&%tag]][[endif3]]&amp;source=[[if flickrID]][[if tag]]user_tag[[else4]]user[[endif4]]&amp;user=[[=&%flickrID]][[else3]]all_tag[[endif3]]"></script>
+<br style="clear:all;" />
+</div>
+[[endif2]]
+[[else]]
+<div style="width:113px; height:151px; background:rgba(0,0,0,0.25); margin:auto;">[['Flickr photos]]</div>
+[[endif]]
+[[if showInfo]]
+<div class="flickr_badge_source">
+    <a href="http://www.flickr.com/photos/[[if flickrID]][[=&%flickrID]]/[[endif2]][[if tag]]tags/[[=&%tag]]/[[endif2]]">[["Flickr photos]][[if tag]][[" tagged with ]][[=&tag]][[endif2]]</a>
+</div>
+[[endif]]
+</div>
