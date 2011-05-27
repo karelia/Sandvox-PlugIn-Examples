@@ -1,4 +1,4 @@
-# Sandvox 2 PlugIn Examples
+# Sandvox 2 Plug-In Examples
 
 This repository provides examples based on two of Sandvox’s built-in plug-ins. Full documentation can found in the  [Sandvox Developer’s Guide](http://www.karelia.com/sandvox/help/z/Sandvox_Developers_Guide.html). **Some familiarity with Cocoa programming is required.**
 
