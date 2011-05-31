@@ -21,9 +21,8 @@ The plug-in also illustrates SVLocalizedString(), implementing a custom inspecto
 ## IFrame
 
 The iFrame plug-in takes a different approach, writing to the context entirely in code with no Template.html. It illustrates implementing a placeholder, specifying particular metrics (width and height) for the object, and how to handle direct drag-and-drop of a URL. It’s action-packed in only a few lines of code!
-  
-  
-**Both examples use Cocoa Bindings to bind controls in the inspector directly to the model via inspectedObjectsController.selection.**
+
+####Both examples use Cocoa Bindings to bind controls in the inspector directly to the model via inspectedObjectsController.selection.####
 
 ## License
 
