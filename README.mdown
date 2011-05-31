@@ -16,14 +16,14 @@ The Flickr plug-in uses Flickr’s badge API to include a Flickr photostream on 
 
 plugging in instance variable values according to the [template specification](http://www.karelia.com/sandvox/help/z/HTML_Template.html). 
 
-The plug-in also illustrates a custom inspector class, SVLocalizedString(), and how to add custom CSS as a resource to the context.
+The plug-in also illustrates SVLocalizedString(), implementing a custom inspector class, and how to add custom CSS as a resource to the context.
 
 ## IFrame
 
 The iFrame plug-in takes a different approach, writing to the context entirely in code with no Template.html. It illustrates implementing a placeholder, specifying particular metrics (width and height) for the object, and how to handle direct drag-and-drop of a URL. It's action-packed in only a few lines of code!
 
 
-**Both examples use Cocoa Bindings to wire up controls in the inspector. Pay careful attention to inspectedObjectsController.selection. It's both key and dead simple.**
+**Both examples use Cocoa Bindings to wire up controls in the inspector via inspectedObjectsController.selection.**
 
 ## License
 
